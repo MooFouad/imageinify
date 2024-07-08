@@ -6,7 +6,7 @@ export interface Itransaction extends Document{
   amount : string;
   plane : string;
   cridets : string;
-  buyer : object;buyerbuyerbuyerbuyerbuyerbuyer
+  buyer : object;
 }
 
 const transactionSchema = new Schema({
